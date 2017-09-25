@@ -2,13 +2,11 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/api/
+    destination: ~/app/joes-angular-site
 hooks:
   AfterInstall:
-    - location: npm-install.sh
+    - location: stop.sh
       runas: root
-      timeout: 300
   ApplicationStart:
-    - location: npm-start.sh
+    - location: start.sh
       runas: root
-      timeout: 60
