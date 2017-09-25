@@ -2,8 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: ~/app/joes-angular-site
-hooks:
+    destination: ~/app/joes-angular-site/src
   AfterInstall:
     - location: stop.sh
       runas: root

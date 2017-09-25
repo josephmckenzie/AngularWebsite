@@ -1,2 +1,3 @@
 #!/bin/sh
-forever npm start
+
+forever startman.sh
