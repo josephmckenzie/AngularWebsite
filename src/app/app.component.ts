@@ -15,6 +15,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   sitewelcome = "Welcome to Joe's Super Awesome Angular Site.";
-  // mainImage = 'https://avatars1.githubusercontent.com/u/13924793?v=4&s=220';
+  mainImage = 'https://avatars1.githubusercontent.com/u/13924793?v=4&s=220';
   title = "Joe's Angular Site";
+  
 }

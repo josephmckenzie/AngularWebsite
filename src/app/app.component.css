@@ -6,3 +6,12 @@
 .mainImage {
 	text-align:center;
 }
+
+.mainPage {
+	background-color: lightgrey;
+}
+
+html {
+	margin:0;
+
+}
