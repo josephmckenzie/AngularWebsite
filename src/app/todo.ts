@@ -4,7 +4,7 @@ export class Todo {
   complete: boolean = false;
 
   constructor(values: Object = {}) {
-    Object:assign(this, values);
+    Object.assign(this, values);
   }
 }
 
